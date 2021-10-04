@@ -1,0 +1,244 @@
+body {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    overflow: hidden;
+    background-color: #1b92d3b8;
+    width: 100%;
+    opacity: 0.8;
+}
+
+header li {
+    float: right;
+    font-size: 1rem;
+}
+header li a {
+    display: block;
+    text-decoration: none;
+    padding: 13px 13px;
+    text-align: center;
+}
+
+#logo {
+    font-family: 'Dancing Script', cursive 100%;
+    font-weight: bold;
+    float: left;
+    display: flex;
+    margin: 0.2rem;
+}
+h1 {
+    font-family: 'Impact', fantasy;
+    text-align: center;
+    color: #4e4c4c;
+    font-size: 4em;
+}
+
+h2 {
+    text-align: center;
+    color: #4e4c4c;
+}
+
+#image_principale {
+    padding-top: 60px;
+    background: url(images/imageprincipale.jpg) 100% 100%;
+    background-size: cover;
+    height: 900px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-delay: -1ms !important;
+      animation-duration: 1ms !important;
+      animation-iteration-count: 1 !important;
+      background-attachment: initial !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0s !important;
+      transition-delay: 0s !important;
+    }
+}
+.mygallery 
+{
+   margin: 10px 20px;
+}
+.mygallery img
+{
+    width: 500px;
+    padding: 7px;
+    filter: grayscale(60%);
+    transition: 1s;
+}
+.mygallery img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+#gallery
+{
+    width: 1500px;
+    overflow: hidden;
+}
+.images
+{
+    animation-duration: 60s;
+    animation-name: Gallerie;
+    animation-iteration-count: infinite;
+    display: flex;
+}
+@keyframes Gallerie {
+    0%
+    {
+        transform: translateX(0);
+    }
+    25%
+    {
+        transform: translateX(-640px);
+    }
+    50%
+    {
+        transform: translateX(-1280px);
+    }
+    75%
+    {
+        transform: translateX(-1920px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+.output {
+    height: 300px;
+    overflow: hidden;
+}
+.output {
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 110%;
+    overflow: hidden;
+    padding: 2em;
+}
+.output section {
+    height: 100%;
+    text-align: center;
+}
+.output section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background-color: #a3000815;
+    color: #000;
+    padding: 1rem;
+    margin-right: 300px;
+    border-radius: .5rem;
+    font: 1rem monospace;
+    width: 30%;
+    transition: margin-right 1s;
+}
+#default-example:hover>#container {
+    background-color: rgba(78, 52, 78, 0.336);
+    color: #f4f4f4;
+    margin-right: 25%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.brands{
+    margin: 100px auto;
+}
+
+.col-5{
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+    filter: grayscale(0%);
+}
+#row{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer{
+    
+    background: #000;
+    color: #8a8a8a;
+    padding: 40px 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom:30px ;
+}
+
+.footer-col-1 , .footer-col-2 , .footer-col-3 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-3{
+    margin-left: 1300px;
+    
+}
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.CopyRight{
+    text-align: center;
+}
+#row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

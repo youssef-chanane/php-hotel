@@ -1,0 +1,50 @@
+.class1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:steelblue;
+    font-size: 1.4em;
+    margin-top: 5%;
+
+}
+.class1 i
+{
+    position:absolute;
+    left: 0;
+    top: 25%;
+    padding: 35px 500px;
+    color: teal;
+}
+.class1 textarea
+{
+    width: 55%;
+    background-color: #f8f8f8;
+    border: 4px solid steelblue;
+    border-radius: 8px;
+}
+#message
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    margin-top: 5%;
+}
+input {
+    border: solid;
+    width: 55%;
+    padding: 15px 8px;
+    margin: 1px 0;
+    font-size: 0.9em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+button {
+    font-size: 1em;
+    background-color: tan;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: turquoise;
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
